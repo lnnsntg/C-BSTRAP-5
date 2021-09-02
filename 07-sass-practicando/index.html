@@ -1,14 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="sass/custom.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="scss/custom.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SASS-PRACTICAS</title>
-</head>
-<body>
-    <h1 class="text-primary text-center">SASS-PRACTICAS</h1>
-    <script src="./js/bootstrap.min.js"></script> 
-</body>
+  </head>
+  <body>
+    <!-- ------------------NAVBAR------------------------- -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #477e88"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="brand.svg" alt="" width="30" height="30" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- ------------------------------------------- -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/servicios.html">Servicos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <!-- ------------------------------------------- -->
+          <!-- ------------------ FORM ------------------------- -->
+          <form class="d-flex">
+            <input
+              class="form-control me-2 nav-clase-inventada"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button type="submit" class="btn btn-light text-light" style="background-color: #477e88;">Search</button>
+          </form>
+          <!-- ------------------ Fin FORM ------------------------- -->
+        </div>
+      </div>
+    </nav>
+    <!-- ------------------FIN  NAVBAR------------------------- -->
+
+    <h1 class="text-primary">SASS-PRACTICAS</h1>
+    <p>Practicando con Sass y compilando con watch-compiler</p>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
