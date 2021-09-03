@@ -10647,17 +10647,16 @@ fieldset:disabled .btn {
 
 header {
   max-width: 100%;
-  height: 21vw;
+  height: 20vw;
   background-image: url("../img/header-map.png");
-  background-position: center center;
+  /*  background-position: center center; */
+  background-position: 0px 58px;
   background-repeat: no-repeat;
   background-size: cover;
+  max-height: 392px;
 }
 
-p {
-  color: red;
-  font-size: 25px;
-  font-weight: bold;
-  border: 1px solid blue;
+main {
+  margin-top: -25px;
 }
 /*# sourceMappingURL=custom.css.map */

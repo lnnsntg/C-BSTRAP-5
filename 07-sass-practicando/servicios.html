@@ -8,10 +8,10 @@
     <title>SASS-PRACTICAS</title>
   </head>
   <body class="container-fluid">
-    <header >
+    <header>
       <!-- ------------------NAVBAR------------------------- -->
       <nav
-        class="navbar navbar-expand-lg navbar-dark"
+        class="navbar navbar-expand-lg navbar-dark "
         style="background-color: #477e88"
       >
         <div class="container-fluid">
@@ -33,10 +33,15 @@
             <!-- ------------------------------------------- -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/servicios.html">Servicos</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/servicios.html"
+                  >Servicos</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/contacto.html">Contacto</a>
@@ -65,15 +70,60 @@
       </nav>
       <!-- ------------------FIN  NAVBAR------------------------- -->
     </header>
+
+    <!-- ------------------    MAIN  ------------------------- -->
+
     <main class="bg-success bg-opacity-75 container">
-      <h1 class="text-center pt-5 text-light">SASS-PRACTICAS</h1>
+      <h1 class="text-center pt-5 text-light">SERVICIOS</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
         consectetur numquam, at consequatur magni voluptatem molestiae. Porro
         illo dolor veniam pariatur enim qui! Repellendus, fuga illum mollitia
         commodi ratione vero neque perferendis veniam quasi!
       </p>
+      <div class="row pt-5 container-fluid">
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card">
+            <img src="img/card-1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card">
+            <img src="img/card-2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card">
+            <img src="img/card-3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+    <!-- ------------------  FIN MAIN  ------------------------- -->
 
     <!-- ---------------------  SCRIP    ------------------------------ -->
     <script src="js/bootstrap.min.js"></script>
