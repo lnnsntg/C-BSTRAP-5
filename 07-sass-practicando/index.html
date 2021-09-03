@@ -7,17 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SASS-PRACTICAS</title>
   </head>
-  <body>
+  <body class="container">
     <!-- ------------------NAVBAR------------------------- -->
     <nav
-      class="navbar navbar-expand-lg navbar-dark"
-      style="background-color: #477e88"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="brand.svg" alt="" width="30" height="30" />
-        </a>
-        <button
+    class="navbar navbar-expand-lg navbar-dark"
+        style="background-color: #477e88"
+        >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="brand.svg" alt="" width="30" height="30" />
+          </a>
+          <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -25,7 +25,7 @@
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        >
+          >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -42,24 +42,26 @@
             </li>
           </ul>
           <!-- ------------------------------------------- -->
-          <!-- ------------------ FORM ------------------------- -->
-          <form class="d-flex">
-            <input
+            <!-- ------------------ FORM ------------------------- -->
+            <form class="d-flex">
+              <input
               class="form-control me-2 nav-clase-inventada"
               type="search"
               placeholder="Search"
               aria-label="Search"
-            />
-            <button type="submit" class="btn btn-light text-light" style="background-color: #477e88;">Search</button>
-          </form>
-          <!-- ------------------ Fin FORM ------------------------- -->
+              />
+              <button type="submit" class="btn btn-light text-light" style="background-color: #477e88;">Search</button>
+            </form>
+            <!-- ------------------ Fin FORM ------------------------- -->
+          </div>
         </div>
-      </div>
-    </nav>
-    <!-- ------------------FIN  NAVBAR------------------------- -->
-
+      </nav>
+      <!-- ------------------FIN  NAVBAR------------------------- -->
+      <header  >      
+    </header>
+    
     <h1 class="text-primary">SASS-PRACTICAS</h1>
-    <p>Practicando con Sass y compilando con watch-compiler</p>
+    <p >Practicando con Sass y compilando con watch-compiler</p>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
