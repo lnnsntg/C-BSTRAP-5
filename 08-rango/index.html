@@ -37,45 +37,52 @@
       </ul>
     </div>
     <!-- ----------------- FIN UL --------------------- -->
-
+    <!-- ------------------ SECCION 2  ---------------------- -->
     <div class="container bg-warning">
+      <!-- ------------------ HEADER  ---------------------- -->
       <div class="text-center my-5">
         <h1 class="fw-bold mb-3 pt-4">Simple, traffic-based pricing</h1>
         <p>Sign-up for our 30-day trial. No credit card required.</p>
       </div>
-      <!-- ----------------- CARD --------------------- -->
-      <div class="row justify-content-around pb-3">
+      <!-- ------------------ FIN HEADER  ---------------------- -->
+      
+      <!-- -----------------    CARD   --------------------- -->
+      <div class="row justify-content-around pb-5">
         <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4">
           <div class="card bg-dark text-light">
             <div class="card-body">
               <div class="row text-center">
+
                 <div class="col-12 col-md-6 order-1">
-                  <p class="m-0">$ 24.00 / month</p>
+                  <p class="m-0">$ <span id="precio" class="fw-bold">24</span>.00 / month</p>
                 </div>
 
                 <div class="col-12 col-md-6 order-3 order-md-2">
-                  <p class="m-0">100k PAGEVIEWS</p>
+                  <p class="m-0"><span id="vistas" class="text-primary">100k </span> PAGEVIEWS</p>
                 </div>
-
+                
                 <div class="col-12 order-2">
                   <input
-                    type="range"
-                    class="form-range"
-                    min="0"
-                    max="5"
-                    step="0.5"
-                    id="customRange3"
+                  type="range"
+                  class="form-range"
+                  min="0"
+                  max="5"
+                  step="0.5"
+                  id="customRange3"
                   />
-                </div>
-
+                </div>                
+                
               </div>
             </div>
+            <button type="button" class="btn btn-outline-light">Acceder</button>
           </div>
         </div>
       </div>
-      <!-- -----------------  FIN CARD --------------------- -->
+      <!-- --------------- FIN CARD --------------------- -->
     </div>
-    <!-- -----------------------   justify content   ----------------------- -->
+    <!-- ---------------   FIN SECCION 2   --------------------- -->
+
+    <!-- -------------   justify content   ----------------------- -->
     <div class="container mb-5 fw-bolder">
       <h3 class="display-5 text-center py-5">Justify content</h3>
       
@@ -117,7 +124,7 @@
       </div>
     </div>
 
-    <!-- -----------------------   Fin justify content   ----------------------- -->
+    <!-- ---------------  Fin justify content   ----------------------- -->
     <div class="container d-flex justify-content-evenly my-5">
       <button type="button" class="btn btn-primary position-relative">
         Mails <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">+99 <span class="visually-hidden">unread messages</span></span>
@@ -133,6 +140,7 @@
   </div>
 
     <!-- -----------------  SCRIPT  --------------------- -->
+    <script src="js/javascript.js"></script>
     <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>
