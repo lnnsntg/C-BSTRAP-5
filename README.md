@@ -1,1 +1,1 @@
-## Pruebas y practica con bootstrap y sass
+## Pruebas y practicas con bootstrap y sass
